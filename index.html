@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>シンプルショッピングカート</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>ショッピングカートサンプル</h1>
+
+        <div class="products" id="products-container">
+            <!-- 商品は JavaScript で動的に生成されます -->
+            <!-- ここにそのまま記述しても問題無し -->
+        </div>
+
+        <div class="cart" id="cart-container">
+            <div class="cart-header">
+                <span class="cart-icon">🛒</span>
+                カート
+            </div>
+            <div id="cart-items" class="cart-items">
+                <div class="cart-empty">カートは空です。</div>
+            </div>
+            <div id="cart-total" class="cart-total" style="display: none;">
+                <span>合計:</span>
+                <span id="total-amount">¥0</span>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="./js/script.js" type="module"></script>
+    <!-- <script src="C:/Users/Matsumoto/Documents/08.課題提出/_課題/frontendmentor/sample/js/script.js" type="module"></script> -->
+    <!-- <script src="C:/Users/Matsumoto/Documents/08.課題提出/_課題/frontendmentor/sample/js/script.js"></script> -->
+
+</body>
+
+</html>
